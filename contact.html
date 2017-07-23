@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Diagnostic Records Contact</title>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar navbar-fixed-top">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">DISTRAKT RECORDS</a>
+                <button type="button" class="navbar-toggle collapsed"
+                data-toggle="collapse" data-target="#myCollapsingList">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+        <ul class="nav navbar-nav collapse navbar-collapse" id="myCollapsingList">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ARTISTS</a></li>
+            <li><a href="releases.html">RELEASES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <!-- Contact Sections - Reach Us, General and Email Form -->
+    <div class="container" id="contact-flex-box">
+        <div class="col-xs-12 col-md-4 col-lg-4 contact-content-box" id="first-ccbox">
+            <h2>Get In Touch</h2>
+            <p>We'd love to hear from you. We're never too far away.
+            Drop us a line or give us a bell anytime. (But not too early!)
+            </p>
+            <p>If you're interested in collaborating or getting in touch
+            about gigs try out our handy form and send us a mail.</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 contact-content-box" id="second-ccbox">
+            <h2>Particulars</h2>
+            <p> name </p>
+            <p> Address</p>
+            <p> Phone Number</p>
+            <p> email</p>
+        </div>
+        <div class="col-xs-12 col-md-4 col-lg-4 contact-content-box">
+            <h2>Mail Us</h2>
+            <div class="form-area">
+                <form role="form">
+                    <div class="form-group ">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="name" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="1000" rows="7"></textarea>
+                    </div>
+                    <button type="button" id="submit" name="submit" class="btn btn-primary pull-left">Submit Form</button>
+                </form>
+            </div><!-- end form area -->
+        </div>
+
+    </div><!-- end container -->
+    <!-- footer -->
+    <footer>
+        <div class="footer-social-icons">
+            <h4 class="_14">Copyright Diagnostic Records 2017</h4>
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/distracktrecords/" class="social-icon" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/Distracktrecord" class="social-icon" target="_blank"> <i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UC4A8QCKxaedurjlkiJ3nf6g" class="social-icon" target="_blank"> <i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://soundcloud.com/distracktrecords" class="social-icon" target="_blank"> <i class="fa fa-soundcloud"></i></a></li>
+                <li><a href="https://plus.google.com/u/0/102390836565254804109" class="social-icon" target="_blank"> <i class="fa fa-google-plus"></i></a></li>
+                <li><a href="https://www.instagram.com/distracktrecords/?hl=en" class="social-icon" target="_blank"> <i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+</body>
+    <!--add bootstrap js after the body to help loading times-->
+    <script src='/bower_components/jquery/dist/jquery.min.js'></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</html>
