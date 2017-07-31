@@ -162,8 +162,8 @@ body{
     background-color: rgba(0,0,0,0.5);
     padding: 20px;
 }
-.tab-content p, .tab-content h2{
-    padding: 20px;
+.tab-content > *{
+    padding: 20px; 
 }
 .nav-pills>li>a{
     background-color: rgba(0,0,0,0.5);
@@ -185,9 +185,13 @@ body{
     box-shadow: 1px 1px 5px rgba(255,255,255,0.5);
 }
 .tab-pane>div>div>img{
-    width: 100%;
+    width: 50%;
     float: left;
+    margin-right: 20px;
     background-color: rgba(255,255,255,1);
+}
+.tab-pane h2 {
+    margin-bottom: 20px;
 }
 
 /* footer */
