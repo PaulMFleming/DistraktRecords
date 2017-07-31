@@ -106,11 +106,14 @@ body{
 }
 .thumb-art{
     width: 100%;
-
     float: left;
     padding: 20px;
 }
-
+.out-now-image {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
 /* animation effects */
 .blur{
     opacity: 0.5;
