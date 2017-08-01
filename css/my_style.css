@@ -94,7 +94,7 @@ body{
 }
 .article-box p, .article-box h2{
     text-shadow: 1px 1px rgba(255,255,255,0.5);
-    padding: 20px;
+    padding: 10px 0px;
     margin-bottom: 30px;
 }
 .article-box p{
@@ -133,6 +133,10 @@ body{
     flex-direction: row;
 
 }
+.contact-content-box{
+    margin-top: 5%;
+    font-size: 21px;
+}
 .contact-content-box h2{
     text-shadow: 1px 1px rgba(255,255,255,0.5);
     padding: 10px;
@@ -146,9 +150,7 @@ body{
     background-color: rgba(0,0,0,0.7);
 }
 
-.contact-content-box{
-    margin-top: 5%;
-}
+
 .custom-hr{
     height: 6px;
     background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
@@ -160,12 +162,17 @@ body{
 .form-control{
     background-color: rgba(0,0,0,0.7);
     border: none;
+    font-size: 21px;
+}
+.btn-primary {
+    font-size: 21px;
 }
 /* About tabbed content */
 .tab-content{
     margin-left: 20px;
     background-color: rgba(0,0,0,0.5);
     padding: 20px;
+    font-size: 21px;
 }
 .tab-content > *{
     padding: 20px; 
@@ -672,6 +679,10 @@ input[type=range]:focus::-ms-fill-upper {
   background: #ffffff;
 }
 
+/* Footer */
+footer h4 {
+    padding: 20px;
+}
 
 /* AUDIO PLAYER
 
