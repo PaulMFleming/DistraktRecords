@@ -1,4 +1,6 @@
 ## Distrackt Records Website
+![picture alt](http://www.brightlightpictures.com/assets/images/portfolio/thethaw_header.jpg "Distrackt Records")
+
 
 ## Synopsis
 This project is designed to be the website for a new independent record label
@@ -21,12 +23,11 @@ Later on, the website will include e-commerce sections to buy music directly fro
 and we plan to add a live podcast radio section to the audio player on the site. These will come
 into being over the next 6 - 12 months.
 
-## Dependencies
-Bootstrap       -   Used for it's responsivity, ease of building navigation and quick styling.
-jQuery          -   Used for the the animation effects on the home page and for the changing images on the 
-                    releases page
-amplitude js    -   Used to build the audio player on the releases page. Amplitude handles all the playback
-                    and playlist functionality that make the releases page work as a full audio player.
+   Dependencies |  Reason for Use
+--------------- | -----------------------------------------------------------------------------------------
+Bootstrap       |   Used for it's responsivity, ease of building navigation and quick styling.
+jQuery          |   Used for the the animation effects on the home page and for the changing images on the releases page
+amplitude js    |   Used to build the audio player on the releases page. Amplitude handles all the playback and playlist functionality that make the releases page work as a full audio player.
 
 
 
