@@ -7,7 +7,7 @@ of all the bands/artists on the label, be a place to find out news pertaining to
 the label (release dates etc) and be a place where people can contact the label from.
 
 ## Motivation 
-Distracket Records wanted the site to be clean and functional in it's navigation while 
+Distrackt Records wanted the site to be clean and functional in it's navigation while 
 having a dark, gritty and industrial feel to the design that reflects the tone of the music.
 
 The main focus of the site is the releases page as this showcases all the music the record 
@@ -21,16 +21,22 @@ Later on, the website will include e-commerce sections to buy music directly fro
 and we plan to add a live podcast radio section to the audio player on the site. These will come
 into being over the next 6 - 12 months.
 
-Prerequisites
+## Dependencies
+Bootstrap       -   Used for it's responsivity, ease of building navigation and quick styling.
+jQuery          -   Used for the the animation effects on the home page and for the changing images on the 
+                    releases page
+amplitude js    -   Used to build the audio player on the releases page. Amplitude handles all the playback
+                    and playlist functionality that make the releases page work as a full audio player.
 
-Built With
+
 
 ## Author and Contributors
 Paul Fleming - Coding and design
 
 Square Apple Graphics - Artwork and design inspiration
 
+Artist Name - Background Image
+
 
 ##Licence
 
-##Acknowledgements
