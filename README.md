@@ -32,11 +32,11 @@ amplitude js    |   Used to build the audio player on the releases page. Amplitu
 
 
 ## Author and Contributors
-* Paul Fleming * - Coding and design
+* Paul Fleming  - Coding and design
 
-* Square Apple Graphics * - Artwork and design inspiration
+* Square Apple Graphics  - Artwork and design inspiration
 
-* Artist Name * - Background Image
+* Artist Name  - Background Image
 
 
 ## Licence
