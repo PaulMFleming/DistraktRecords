@@ -36,7 +36,7 @@
     </nav>
 
     <!-- Audio Player -->
-    <div class="wrapper">
+    <div class="wrapper col-sm-12">
         <!-- Left Hand Pane -->
         <div id="left-pane">
             <div class="album-button" id="podcast-album" onclick="showAlbum(this.id);">
@@ -59,8 +59,16 @@
                 <div class="grid-box-top" id="playlist-pane">
                 <div id="playlist-style">
                     <div id="podcast-album-playlist">
-                        <h2>DISTRACKT RADIO</h2>
-                        <p>Check out all of our releases here...</p>
+                        <h2>DISTRACKT RELEASES</h2>
+                        <p>Choose a release on the left hand side</p>
+                        <ul>
+                            <li id="radio-list-item-one"><h4>DR00.00.01</h4>AndOr - Mind Map</li>
+                            <hr>
+                            <li id="radio-list-item-two"><h4>DR00.00.02</h4>Deviate - Satellite</li>
+                            <hr>
+                            <li id="radio-list-item-three"><h4>DR00.00.03</h4>Simon Foran - Nihulus</li>
+                            <hr>
+                        </ul>
                     </div>
                     <div id="first-album-playlist" class="hidden album-playlist">
                         <h2>ANDOR
@@ -81,8 +89,8 @@
                         <h2>DEVIATE</h2>
                         <h3>SATELLITE</h3>
                         <ol>
-                            <li><div class="song-title amplitude-song-container amplitude-play-pause amplitude-paused" amplitude-song-index="3">Need You Here (Preview)</div></li>
-                            <li><div class="song-title amplitude-song-container amplitude-play-pause amplitude-paused" amplitude-song-index="4">Satellite (Preview)</div></li>
+                            <li><div class="song-title amplitude-song-container amplitude-play-pause amplitude-paused" amplitude-song-index="3">Need You Here</div></li>
+                            <li><div class="song-title amplitude-song-container amplitude-play-pause amplitude-paused" amplitude-song-index="4">Satellite</div></li>
                         </ol>
 
                         <div class="playlist-pane-info-box">
@@ -95,8 +103,8 @@
                         <h2>SIMON FORAN</h2>
                         <h3>NIHILUS</h3>
                         <ol>
-                            <li><div class="song-title amplitude-song-container amplitude-play-pause amplitude-paused" amplitude-song-index="5">Nihilus (Preview)</div></li>
-                            <li><div class="song-title amplitude-song-container amplitude-play-pause amplitude-paused" amplitude-song-index="6">Filtered Hound (Preview)</div></li>
+                            <li><div class="song-title amplitude-song-container amplitude-play-pause amplitude-paused" amplitude-song-index="5">Nihilus</div></li>
+                            <li><div class="song-title amplitude-song-container amplitude-play-pause amplitude-paused" amplitude-song-index="6">Filtered Hound</div></li>
                         </ol>
                         <div class="playlist-pane-info-box">
                             <p><a href="about.html" target="_blank">Artist Info...</a></p>
@@ -177,34 +185,36 @@
                     "name": "Need You Here (Preview)",
                     "artist": "Deviate",
                     "album": "Satellite",
-                    "url": "audio/satellite/needYouHere_preview.mp3",
+                    "url": "audio/satellite/needYouHere.mp3",
                     "cover_art_url": "images/stock/dance.jpg"
                 },
                 {
                     "name": "Satellite (Preview)",
                     "artist": "Deviate",
                     "album": "Satellite",
-                    "url": "audio/satellite/satellite_preview.mp3",
+                    "url": "audio/satellite/satellite.mp3",
                     "cover_art_url": "images/stock/dance.jpg"
                 },
                 {
                     "name": "Nihilus (Preview)",
                     "artist": "Simon Foran",
                     "album": "Nihilus",
-                    "url": "audio/nihilus/nihilus_preview.mp3",
+                    "url": "audio/nihilus/nihilus.mp3",
                     "cover_art_url": "images/stock/dance.jpg"
                 },
                 {
                     "name": "Filtered Hound (Preview)",
                     "artist": "Simon Foran",
                     "album": "Nihilus",
-                    "url": "audio/nihilus/filteredHound_preview.mp3",
+                    "url": "audio/nihilus/filteredHound.mp3",
                     "cover_art_url": "images/stock/dance.jpg"
                 },
             ],
             "start-song": 0
         });
 </script>
+<script type="text/javascript" src="js/custom_js/radio_list_script.js"></script>
+
 </body>
 
 </html>

@@ -18,3 +18,4 @@ function showAlbum(albumName) {
     $("#playlist-style>div").addClass("hidden");
     $("#"+albumName+"-playlist").removeClass("hidden");
 }
+
