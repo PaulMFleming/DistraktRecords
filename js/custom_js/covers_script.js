@@ -1,5 +1,5 @@
 COVERS = {
-    "podcast-album": "url(images/Sample_09.jpg)",
+    "podcast-album": "url(images/logos/distracktGrundge.jpg)",
     "first-album": "url(images/covers/mindmap.png)",
     "second-album": "url(images/covers/satellite.png)",
     "third-album": "url(images/covers/nihilus1.png)",
