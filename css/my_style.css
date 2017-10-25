@@ -678,37 +678,22 @@ footer h4 {
     padding: 20px;
 }
 
-/* AUDIO PLAYER
-
-.player-container{
-    width: 800px;
-    height: 600px;
-    margin: auto;
-    background-color: #eee;
+/* Releases page small screen */
+@media only screen and (max-width: 500px){
+    #left-pane{
+        width: 25%;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    #right-pane{
+        display: flex;
+        width: 75%;
+        min-height: 600px;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    .right-pane-left {
+        width: 60%;
+        height: 100%;
+    }
 }
-.album-selection-pane{
-    width: 200px;
-    height: 600px;
-    margin-right: auto;
-    background-color: #ccc;
-}
-.album-button{
-    width: 200px;
-    height: 200px;
-    background-color: #000;
-    border: 1px #fff solid;
-    color: #fff;
-    margin: none;
-}
-#first-album{}
-#second-album{}
-#third-album{}
-.artwork-container{
-    width: 600px;
-    height: 600px;
-    margin: none;
-    display: inline-block;
-    background-image: url(Sample_09.jpg);
-    background-size: contain;
-} */
-
