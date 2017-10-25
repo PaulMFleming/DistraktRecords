@@ -61,6 +61,7 @@ Amplitude Js | Amplitude is a Javascript library for working with Audio files. N
 
 * Social Media Icon Inspiration - https://bootsnipp.com/snippets/mp3WO
 
+## Peace and Thanks, Paul
 
 
 
