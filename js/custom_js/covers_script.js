@@ -1,3 +1,5 @@
+// script to change the album covers in the releases page
+
 COVERS = {
     "podcast-album": "url(images/logos/distracktGrundge.jpg)",
     "first-album": "url(images/covers/mindmap.png)",

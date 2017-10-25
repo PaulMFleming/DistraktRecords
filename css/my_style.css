@@ -1,4 +1,8 @@
+/* My custom styles */
+
+/* import font awesome */
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
 /* body */
 body{
     background-image: url(../images/factorybg1.jpg);
@@ -20,8 +24,6 @@ body{
 .grid-box{
     border: 1px solid rgba(83,45,80,0.7);
 }
-
-
 .image-header{
     width: 100%;
 }
@@ -69,7 +71,6 @@ body{
     bottom: 40px;
     left: 30px;
     background-color: transparent;
-
 }
 #moreinfo a{
     color: #fff;
@@ -100,7 +101,6 @@ body{
 .article-box p{
     margin: 10px;
 }
-
 .article-background {
     background-color: rgba(0,0,0,0.7);
 }
@@ -114,6 +114,7 @@ body{
     float: left;
     padding: 20px;
 }
+
 /* animation effects */
 .blur{
     opacity: 0.5;
@@ -131,7 +132,6 @@ body{
 /* contact page flex box */
 #contact-flex-box{
     flex-direction: row;
-
 }
 .contact-content-box{
     margin-top: 5%;
@@ -140,7 +140,6 @@ body{
 .contact-content-box h2{
     text-shadow: 1px 1px rgba(255,255,255,0.5);
     padding: 10px;
-    /*background-color: rgba(0,0,0,0.7);*/
     margin-bottom: 30px;
 }
 .contact-content-box p{
@@ -149,8 +148,6 @@ body{
     border-radius: 5px;
     background-color: rgba(0,0,0,0.7);
 }
-
-
 .custom-hr{
     height: 6px;
     background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
@@ -167,6 +164,7 @@ body{
 .btn-primary {
     font-size: 21px;
 }
+
 /* About tabbed content */
 .tab-content{
     margin-left: 20px;
@@ -190,7 +188,6 @@ body{
     background-color: rgba(255,255,255,0.4);
     color: #000;
 }
-
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     color: #fff;
     background-color: rgba(0,0,0,0.5);
@@ -359,9 +356,6 @@ a, a:focus, a:hover{
     display: flex;
     width: 90%;
     min-height: 600px;
-
-    /*background-image: url(../images/Sample_09.jpg);
-    background-size: cover;*/
 }
 .album-button{
     width: 100%;

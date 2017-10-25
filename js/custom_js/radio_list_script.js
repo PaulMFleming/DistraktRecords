@@ -1,3 +1,5 @@
+// script to highlight the release names on the first page of the audio player
+
 $(document).ready(function(){
     $("#radio-list-item-one").mouseenter(function() {
         $("#first-album.album-button").css('text-decoration', 'underline');

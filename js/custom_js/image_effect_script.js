@@ -1,3 +1,5 @@
+// script for the boxes/images on the front page that fade in and out
+
 $(document).ready(function(){
     /* logo box */
     $("#home-logo-box").mouseenter(function() {
