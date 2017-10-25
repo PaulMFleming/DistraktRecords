@@ -1,5 +1,5 @@
 ## Distrackt Records Website
-![picture alt](http://www.brightlightpictures.com/assets/images/portfolio/thethaw_header.jpg "Distrackt Records")
+![Distrackt Records Logo](https://scontent.fdub2-1.fna.fbcdn.net/v/t31.0-8/18401962_1476086745743030_3445565603802086013_o.jpg?oh=0083c356b5c2a288e3c03b7a33c63b92&oe=5A66A9E2)
 
 
 ## Synopsis
@@ -41,4 +41,5 @@ amplitude js    |   Used to build the audio player on the releases page. Amplitu
 
 ## Licence
 Insert licence info here
+
 
