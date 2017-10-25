@@ -25,28 +25,28 @@ Amplitude.init({
             "cover_art_url": "images/stock/hammer.jpg"
         },
         {
-            "name": "Need You Here (Preview)",
+            "name": "Need You Here",
             "artist": "Deviate",
             "album": "Satellite",
             "url": "audio/satellite/needYouHere.mp3",
             "cover_art_url": "images/stock/dance.jpg"
         },
         {
-            "name": "Satellite (Preview)",
+            "name": "Satellite",
             "artist": "Deviate",
             "album": "Satellite",
             "url": "audio/satellite/satellite.mp3",
             "cover_art_url": "images/stock/dance.jpg"
         },
         {
-            "name": "Nihilus (Preview)",
+            "name": "Nihilus",
             "artist": "Simon Foran",
             "album": "Nihilus",
             "url": "audio/nihilus/nihilus.mp3",
             "cover_art_url": "images/stock/dance.jpg"
         },
         {
-            "name": "Filtered Hound (Preview)",
+            "name": "Filtered Hound",
             "artist": "Simon Foran",
             "album": "Nihilus",
             "url": "audio/nihilus/filteredHound.mp3",
